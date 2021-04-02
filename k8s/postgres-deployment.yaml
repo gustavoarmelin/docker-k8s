@@ -30,7 +30,7 @@ spec:
               memory: "512Mi"
               cpu: "1Gi"
           env:
-            - name: PGPASSWORD
+            - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: pgpassword
