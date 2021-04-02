@@ -1,4 +1,4 @@
-# Deploy with k8s
+# Deploy with k8s in Google Cloud
 
-### Criar uma senha secreta para o banco
+### Create secret password for postgres database
 `kubectl create secret generic pgpassword --from-literal PGPASSWORD=VALORRRRR`
